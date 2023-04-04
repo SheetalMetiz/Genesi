@@ -7,7 +7,7 @@ import codenode from '../public/static/images/codenodeIcon.svg';
 
 
 import block from '../public/static/images/blockchainicon.svg';
-import nodeicon from '../public/static/images/nodeicon.svg';
+
 
 
 
@@ -42,7 +42,7 @@ const Services = () => {
             <p className="text-gray-400"> Nodes as a service
           An industrial node solution for projects requiring robust decentralised node infrastructures at scale. 
           Node Army collaborates with projects during development phase and through a blockchain lifecycle.</p>
-          <Image className="w-[18px] h-[18px] my-3" src={nodeicon} alt="me" width="64" height="64" />
+         
           </div>
           {/* <div className='text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 lg:gap-8'> */}
           <div>
