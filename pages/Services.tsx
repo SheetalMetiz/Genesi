@@ -1,11 +1,11 @@
 // Services page
 import Image from 'next/image';
 import frame from '../public/static/images/Frame.svg';
-import frame1 from '../public/static/images/Frame1.svg';
+
 import codenode from '../public/static/images/codenodeIcon.svg';
-import managenode from '../public/static/images/managenodeicon.svg';
-import reward from '../public/static/images/rewardIcon.svg';
-import nodecuild from '../public/static/images/nodebuildicon.svg';
+
+
+
 import block from '../public/static/images/blockchainicon.svg';
 import nodeicon from '../public/static/images/nodeicon.svg';
 
@@ -35,7 +35,7 @@ const Services = () => {
              earned rewards. Develop a passive yield portfolio 
              with minimum time and skill commitment.
             </p>
-            <Image className="w-[18px] h-[18px] my-3" src={managenode} alt="me" width="64" height="64" />
+           
           </div>
           <div>
           <Image className="w-[320px]" src={frame} alt="me" width="64" height="64" />
@@ -54,7 +54,7 @@ const Services = () => {
               Node Army does not offer or promote its own Node Army yield, but rewards are transparently distributed on
               the blockchain according to the underlying projects protocol and tokenomics.
             </p>
-            <Image className="w-[18px] h-[18px] my-3" src={reward} alt="me" width="64" height="64" />
+            
           </div>
 
           <div>
@@ -64,7 +64,7 @@ const Services = () => {
               Easily deploy nodes with pre-built templates hosted in the Marketplaces of premier cloud computing providers.
               Templates are specific to the different underlying blockchain networks, designed to make deployment seamless.
             </p>
-            <Image className="w-[18px] h-[18px] my-3" src={nodecuild} alt="me" width="64" height="64" />
+           
           </div>
 
           <div className="visible sm:hidden md:invisible"></div>
@@ -73,7 +73,6 @@ const Services = () => {
           <div className="visible sm:hidden md:invisible"></div>
           <div className="">
           {/* h-[410px] */}
-          <Image className="w-[320px]" src={frame1} alt="me" width="64" height="64" />
           
           </div>
           <div className="">
