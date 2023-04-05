@@ -1,16 +1,15 @@
-// Services page
 import Image from 'next/image';
 import frame from '../public/static/images/Frame.svg';
-
 import codenode from '../public/static/images/codenodeIcon.svg';
-
-
-
+import managenode from '../public/static/images/managenodeicon.svg';
+import reward from '../public/static/images/rewardIcon.svg';
+import nodecuild from '../public/static/images/nodebuildicon.svg';
 import block from '../public/static/images/blockchainicon.svg';
+import blockimg from '../public/static/images/blockchainicon.jpg';
+import nodeicon from '../public/static/images/nodeicon.svg';
 
 
-
-
+// Services page
 const Services = () => {
   return (
     <div className="container sm:w-100">
@@ -18,7 +17,6 @@ const Services = () => {
         <div className="flex flex-col  gap-4">
           <h1 className="text-4xl md:text-7xl  font-bold text-white my-8">SERVICES</h1>
         </div>
-        {/* h-56 */}
         <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-8">
           <div>
             <h2 className="text-xl">Co-Nodes</h2> 
@@ -35,28 +33,25 @@ const Services = () => {
              earned rewards. Develop a passive yield portfolio 
              with minimum time and skill commitment.
             </p>
-           
+            <Image className="w-[18px] h-[18px] my-3" src={managenode} alt="me" width="64" height="64" />
           </div>
           <div>
           <Image className="w-[320px]" src={frame} alt="me" width="64" height="64" />
             <p className="text-gray-400"> Nodes as a service
           An industrial node solution for projects requiring robust decentralised node infrastructures at scale. 
           Node Army collaborates with projects during development phase and through a blockchain lifecycle.</p>
-         
+          <Image className="w-[18px] h-[18px] my-3" src={nodeicon} alt="me" width="64" height="64" />
           </div>
-          {/* <div className='text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 lg:gap-8'> */}
           <div>
             <h2 className="text-xl">Rewards</h2>
-
             <p className="text-gray-400">
               Participate in underlying projects offering rewards for staking,
               validating, and securing their network through a transparent process.
               Node Army does not offer or promote its own Node Army yield, but rewards are transparently distributed on
               the blockchain according to the underlying projects protocol and tokenomics.
             </p>
-            
+            <Image className="w-[18px] h-[18px] my-3" src={reward} alt="me" width="64" height="64" />
           </div>
-
           <div>
             <h2 className="text-xl">Node build templates</h2>
 
@@ -64,17 +59,19 @@ const Services = () => {
               Easily deploy nodes with pre-built templates hosted in the Marketplaces of premier cloud computing providers.
               Templates are specific to the different underlying blockchain networks, designed to make deployment seamless.
             </p>
-           
+            <Image className="w-[18px] h-[18px] my-3" src={nodecuild} alt="me" width="64" height="64" />
           </div>
 
-          <div className="visible sm:hidden md:invisible"></div>
+          <div className="visible"></div>
 
-          {/* invisible ... */}
-          <div className="visible sm:hidden md:invisible"></div>
-          <div className="">
-          {/* h-[410px] */}
+
+          <div className="visible"></div>
+
           
+          <div className="">
+          <Image className="w-[320px]" src={blockimg} alt="me" width="64" height="64" />
           </div>
+          
           <div className="">
           <h2 className="text-xl">Blockchain scalability</h2>
             <p className="text-gray-400">
@@ -85,9 +82,6 @@ const Services = () => {
             <Image className="w-[18px] h-[18px] my-3" src={block} alt="me" width="64" height="64" />
           </div>
 
-
-          {/* </div> */}
-          
         </div>
       </div>
       
